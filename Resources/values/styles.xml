@@ -1,0 +1,19 @@
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="man">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">0dp</item>
+    <item name="android:layout_rowWeight">1</item>
+    <item name="android:layout_columnWeight">1</item>
+    <item name="android:onClick">Click</item>
+    <item name="android:src">@drawable/pipe2</item>
+    <item name="android:layout_margin">0.1dp</item>
+  </style>
+
+</resources>
